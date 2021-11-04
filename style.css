@@ -1,0 +1,52 @@
+body{
+    background-image: url('img/pattern-background-desktop.svg');
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.general{
+    width: 45%;
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.hero{
+    width: 100%;
+}
+.order{
+    /* border: 1px solid red; */
+    margin: 15px;
+    padding: 0 25px;
+}
+h4{
+    padding: 0 50px;
+}
+
+.plan{
+    /* border: solid green; */
+    display: flex;
+    padding: 10px 10px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    border-radius: 10px;
+}
+.dir{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+button{
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px;
+}
